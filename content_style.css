@@ -1,0 +1,43 @@
+/* Placeholder for CSS styles to display the context in the Five9 interface */
+
+.sierra-context-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  max-height: 200px; /* Limit height */
+  overflow-y: auto;  /* Add scrollbar if content exceeds max height */
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.sierra-context-container h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.sierra-context-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: pre-wrap; /* Preserve whitespace and newlines */
+}
+
+.sierra-context-container.loading {
+  color: #888;
+}
+
+.sierra-context-container.error {
+  color: #d9534f; /* Bootstrap danger color */
+  border-color: #d9534f;
+  background-color: #f2dede;
+}
+
+.sierra-context-container.no-context {
+    color: #555;
+}
