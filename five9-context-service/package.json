@@ -1,0 +1,13 @@
+{
+  "name": "five9-context-service",
+  "version": "1.0.0",
+  "description": "A web service to provide context to Five9 from an external source.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
